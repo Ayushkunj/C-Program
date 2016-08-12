@@ -22,7 +22,7 @@ int main()
     {
         if(arr[i]==i)
         {
-            printf("\n%d is equal to its index %d",arr[i],i);
+            printf("\nThe number %d is equal to its index %d",arr[i],i);
         }
     }
     return 0;
