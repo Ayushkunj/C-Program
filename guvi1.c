@@ -12,6 +12,12 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
+    
+    printf("\nEntered array  :\n ");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\t",arr[i]);
+    }
     for(i=0;i<n;i++)
     {
         if(arr[i]==i)
